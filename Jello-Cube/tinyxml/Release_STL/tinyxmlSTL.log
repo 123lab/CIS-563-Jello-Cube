@@ -1,0 +1,21 @@
+﻿Build started 4/14/2012 10:28:00 AM.
+     1>Project "C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\tinyxml\tinyxmlSTL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_STL\tinyxmlSTL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\tinyxml\.\tinyxmlSTL.lib) does not match the Library's OutputFile property value (C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\tinyxml\tinyxml_STL.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(tinyxmlSTL) does not match the Library's OutputFile property value (tinyxml_STL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         All outputs are up-to-date.
+         tinyxmlSTL.vcxproj -> C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\tinyxml\.\tinyxmlSTL.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\Release_STL\tinyxmlSTL.unsuccessfulbuild".
+         Touching ".\Release_STL\tinyxmlSTL.lastbuildstate".
+     1>Done Building Project "C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\tinyxml\tinyxmlSTL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

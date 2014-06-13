@@ -1,0 +1,39 @@
+﻿Build started 2/14/2012 8:24:36 AM.
+     1>Project "C:\CIS 563\Jello-basecode\Jello-basecode\jello.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\jello.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Itinyxml /IDevIL1.6.7\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOL /D HAVE_WX /D WXUSINGDLL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4290 /wd4996 /analyze- /errorReport:prompt camera.cpp fps.cpp jelloMesh.cpp main.cpp vec.cpp world.cpp
+         world.cpp
+         vec.cpp
+         main.cpp
+         jelloMesh.cpp
+         fps.cpp
+         camera.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\jello.exe.embed.manifest.res" Debug\jello_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\jello.exe" /INCREMENTAL /NOLOGO /LIBPATH:. /LIBPATH:tinyxml /LIBPATH:DevIL1.6.7\lib Vfw32.lib DevIL.lib ilu.lib ilut.lib tinyxmld_STL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\jello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\simpleGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\jello.lib" /MACHINE:X86 Debug\jello.exe.embed.manifest.res
+         Debug\camera.obj
+         Debug\fps.obj
+         Debug\jelloMesh.obj
+         Debug\main.obj
+         Debug\vec.obj
+         Debug\world.obj
+         "C:\CIS 563\Jello-basecode\Jello-basecode\tinyxml\tinyxmld_STL.lib"
+         LINK : Debug\jello.exe not found or not built by the last incremental link; performing full link
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\jello.exe.embed.manifest" /manifest Debug\jello.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         jello.vcxproj -> C:\CIS 563\Jello-basecode\Jello-basecode\Debug\jello.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\jello.unsuccessfulbuild".
+         Touching "Debug\jello.lastbuildstate".
+     1>Done Building Project "C:\CIS 563\Jello-basecode\Jello-basecode\jello.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.48

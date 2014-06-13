@@ -1,0 +1,26 @@
+﻿Build started 4/14/2012 10:28:01 AM.
+     1>Project "C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\jello.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\jello.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Itinyxml /IDevIL1.6.7\include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _SECURE_SCL=0 /D HAVE_WX /D WXUSINGDLL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4290 /wd4996 /analyze- /errorReport:prompt jelloMesh.cpp
+         jelloMesh.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\jello.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:. /LIBPATH:tinyxml /LIBPATH:DevIL1.6.7\lib Vfw32.lib DevIL.lib ilu.lib ilut.lib tinyxml_STL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\jello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\Release\jello.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\jello.lib" /MACHINE:X86 Release\camera.obj
+         Release\fps.obj
+         Release\jelloMesh.obj
+         Release\main.obj
+         Release\vec.obj
+         Release\world.obj
+         "C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\tinyxml\tinyxml_STL.lib"
+         jello.vcxproj -> C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\Release\jello.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\jello.exe;#1" /manifest Release\jello.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\jello.unsuccessfulbuild".
+         Touching "Release\jello.lastbuildstate".
+     1>Done Building Project "C:\CIS 563\Jello-basecode(Final Version)\Jello-basecode\jello.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.15
